@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "description": "AI slop phrases — filler that adds zero information",
+    "license": "MIT",
+    "version": "1.0.0"
+  },
+  "filler_phrases": [
+    { "phrase": "it's worth noting that", "action": "Just state the thing." },
+    { "phrase": "it's important to note that", "action": "Just state the thing." },
+    { "phrase": "importantly", "action": "Just state the thing." },
+    { "phrase": "notably", "action": "Just state the thing." },
+    { "phrase": "interestingly", "action": "Just state the thing." },
+    { "phrase": "let's dive into", "action": "Delete. Start with the content." },
+    { "phrase": "let's explore", "action": "Delete. Start with the content." },
+    { "phrase": "in this section, we will", "action": "Delete." },
+    { "phrase": "as we can see", "action": "Delete." },
+    { "phrase": "as mentioned earlier", "action": "Delete." },
+    { "phrase": "in conclusion", "action": "Delete." },
+    { "phrase": "to summarize", "action": "Delete." },
+    { "phrase": "furthermore", "action": "Replace with 'and' or start a new sentence." },
+    { "phrase": "moreover", "action": "Replace with 'also', 'and', 'plus'." },
+    { "phrase": "additionally", "action": "Replace with 'also', 'and'." },
+    { "phrase": "in today's fast-paced world", "action": "Delete the whole clause." },
+    { "phrase": "in today's digital age", "action": "Delete the whole clause." },
+    { "phrase": "at the end of the day", "action": "Delete." },
+    { "phrase": "it goes without saying", "action": "Then don't say it." },
+    { "phrase": "without further ado", "action": "Delete." },
+    { "phrase": "when it comes to", "action": "Just talk about the thing." },
+    { "phrase": "in the realm of", "action": "Replace with 'in'." },
+    { "phrase": "one might argue that", "action": "Argue it or don't." },
+    { "phrase": "it could be suggested that", "action": "Say it or don't." },
+    { "phrase": "this begs the question", "action": "Delete." },
+    { "phrase": "cannot be overstated", "action": "State the specific impact instead." },
+    { "phrase": "is absolutely essential", "action": "Replace with 'matters' or 'you need this'." },
+    { "phrase": "not just", "note": "as in 'not just X, but Y'", "action": "Restructure the sentence." },
+    { "phrase": "navigating the landscape", "action": "Delete or say what you're actually doing." },
+    { "phrase": "ever-evolving", "action": "Replace with 'changing' or 'growing'." }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "description": "AI slop words — statistically overrepresented in LLM output vs human writing",
+    "license": "MIT",
+    "version": "1.0.0"
+  },
+  "tier1": {
+    "description": "Kill on sight. These almost never appear in casual human writing.",
+    "words": [
+      { "slop": "delve", "alternatives": ["dig into", "look at", "examine"] },
+      { "slop": "utilize", "alternatives": ["use"] },
+      { "slop": "leverage", "note": "verb form", "alternatives": ["use", "take advantage of"] },
+      { "slop": "facilitate", "alternatives": ["help", "enable", "make possible"] },
+      { "slop": "elucidate", "alternatives": ["explain", "clarify"] },
+      { "slop": "embark", "alternatives": ["start", "begin"] },
+      { "slop": "endeavor", "alternatives": ["effort", "try"] },
+      { "slop": "encompass", "alternatives": ["include", "cover"] },
+      { "slop": "multifaceted", "alternatives": ["complex", "varied"] },
+      { "slop": "tapestry", "alternatives": ["(describe the actual thing)"] },
+      { "slop": "testament", "note": "as in 'a testament to'", "alternatives": ["shows", "proves"] },
+      { "slop": "paradigm", "alternatives": ["model", "approach", "framework"] },
+      { "slop": "synergy", "alternatives": ["(delete the sentence)"] },
+      { "slop": "synergize", "alternatives": ["(delete the sentence)"] },
+      { "slop": "holistic", "alternatives": ["whole", "complete", "full-picture"] },
+      { "slop": "catalyze", "alternatives": ["trigger", "cause", "spark"] },
+      { "slop": "catalyst", "alternatives": ["trigger", "cause", "spark"] },
+      { "slop": "juxtapose", "alternatives": ["compare", "contrast", "set against"] },
+      { "slop": "nuanced", "note": "as filler", "alternatives": ["(cut it)"] },
+      { "slop": "realm", "alternatives": ["area", "field", "domain"] },
+      { "slop": "landscape", "note": "metaphorical", "alternatives": ["field", "space", "situation"] },
+      { "slop": "myriad", "alternatives": ["many", "lots of"] },
+      { "slop": "plethora", "alternatives": ["many", "a lot"] },
+      { "slop": "whilst", "alternatives": ["while"] },
+      { "slop": "ever-evolving", "alternatives": ["changing", "growing"] }
+    ]
+  },
+  "tier2": {
+    "description": "Suspicious in clusters. Fine alone, but 3+ in one paragraph = rewrite.",
+    "words": [
+      { "slop": "robust", "alternatives": ["strong", "solid", "reliable"] },
+      { "slop": "comprehensive", "alternatives": ["complete", "thorough", "full"] },
+      { "slop": "seamless", "alternatives": ["smooth", "easy", "without friction"] },
+      { "slop": "seamlessly", "alternatives": ["smoothly", "easily"] },
+      { "slop": "cutting-edge", "alternatives": ["new", "latest", "modern"] },
+      { "slop": "innovative", "alternatives": ["new", "original", "clever"] },
+      { "slop": "streamline", "alternatives": ["simplify", "speed up"] },
+      { "slop": "empower", "alternatives": ["let", "help", "give the ability"] },
+      { "slop": "foster", "alternatives": ["encourage", "grow", "support"] },
+      { "slop": "enhance", "alternatives": ["improve", "boost"] },
+      { "slop": "elevate", "alternatives": ["raise", "improve"] },
+      { "slop": "optimize", "alternatives": ["improve", "tune", "tweak"] },
+      { "slop": "scalable", "alternatives": ["grows with you", "handles more load"] },
+      { "slop": "pivotal", "alternatives": ["important", "key", "central"] },
+      { "slop": "intricate", "alternatives": ["complex", "detailed"] },
+      { "slop": "profound", "alternatives": ["deep", "significant"] },
+      { "slop": "resonate", "alternatives": ["connect with", "hit home"] },
+      { "slop": "underscore", "alternatives": ["highlight", "stress", "show"] },
+      { "slop": "harness", "alternatives": ["use", "put to work"] },
+      { "slop": "navigate", "note": "metaphorical", "alternatives": ["deal with", "work through", "handle"] },
+      { "slop": "cultivate", "alternatives": ["build", "grow", "develop"] },
+      { "slop": "bolster", "alternatives": ["strengthen", "support"] },
+      { "slop": "galvanize", "alternatives": ["motivate", "push", "rally"] },
+      { "slop": "cornerstone", "alternatives": ["foundation", "basis", "core"] },
+      { "slop": "game-changer", "alternatives": ["(say what changed)"] }
+    ]
+  }
+}
